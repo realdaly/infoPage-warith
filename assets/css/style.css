@@ -122,6 +122,8 @@
     font-size: 20px;
     margin-bottom: 2rem;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--blue);
 }
 
 .social {
@@ -263,7 +265,6 @@
     position: absolute;
     z-index: 6;
     width: 50rem;
-    /* mix-blend-mode: overlay; */
 }
 
 .dotsRight {
