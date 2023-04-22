@@ -1,7 +1,7 @@
 :root {
-	--blue: #1d3a6d;
-    --white: #E0E0E0;
-    --dark: #000;
+        --blue: #1d3a6d;
+        --white: #E0E0E0;
+        --dark: #000;
 }
 
 @font-face {
@@ -25,7 +25,7 @@
     overflow: hidden;
     height: 100vh;
     min-height: max-content;
-    padding: .5rem 1rem 75rem 1rem;
+    padding: .5rem 1rem 80rem 1rem;
 }
 
 @media only screen and (max-width: 486px) {
@@ -102,10 +102,29 @@
     text-align: center;
 }
 
+.globe {
+        filter: drop-shadow(0 1px .5px rgb(0 0 0 /1));
+}
+
 .line {
     margin-top: 2rem;
     margin-bottom: 1rem;
     opacity: .5;
+}
+
+.flex {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 18px;
+    gap: .5rem;
+}
+
+.margin {
+        margin: 1.5rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
 }
 
 .communicate {
@@ -160,9 +179,15 @@
     }
 
     .wrapper {
-        padding-bottom: 77rem;
+        padding-bottom: 81rem;
     }
     
+  }
+
+  @media only screen and (max-width: 350px) {
+        .wrapper {
+                padding-bottom: 87rem;
+        }
   }
 
   @media only screen and (max-width: 290px) {
@@ -172,7 +197,7 @@
             }
 
             .wrapper {
-                padding-bottom: 105rem;
+                padding-bottom: 107rem;
             }
   }
 
@@ -538,118 +563,34 @@
   }
 
 .slide-in-blurred-right {
-	-webkit-animation: slide-in-blurred-right 0.6s 5.70s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-right 0.6s 5.70s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	-webkit-animation: slide-in-right 0.6s 5.70s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-right 0.6s 5.70s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 .slide-in-blurred-left {
-	-webkit-animation: slide-in-blurred-left 0.6s 6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-left 0.6s 6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	-webkit-animation: slide-in-left 0.6s 6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-left 0.6s 6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 .slide-in-blurred-right2 {
-	-webkit-animation: slide-in-blurred-right 0.6s 6.30s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-right 0.6s 6.30s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	-webkit-animation: slide-in-right 0.6s 6.30s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-right 0.6s 6.30s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 .slide-in-blurred-left2 {
-	-webkit-animation: slide-in-blurred-left 0.6s 6.60s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-left 0.6s 6.60s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	-webkit-animation: slide-in-left 0.6s 6.60s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-left 0.6s 6.60s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 .slide-in-blurred-right3 {
-	-webkit-animation: slide-in-blurred-right 0.6s 6.90s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-right 0.6s 6.90s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	-webkit-animation: slide-in-right 0.6s 6.90s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-right 0.6s 6.90s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 .slide-in-blurred-left3 {
-	-webkit-animation: slide-in-blurred-left 0.6s 7.20s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-left 0.6s 7.20s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	-webkit-animation: slide-in-left 0.6s 7.20s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-left 0.6s 7.20s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 .slide-in-blurred-right4 {
-	-webkit-animation: slide-in-blurred-right 0.6s 7.50s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-right 0.6s 7.50s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	-webkit-animation: slide-in-right 0.6s 7.50s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-right 0.6s 7.50s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 .slide-in-blurred-left4 {
-	-webkit-animation: slide-in-blurred-left 0.6s 7.80s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-left 0.6s 7.80s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	-webkit-animation: slide-in-left 0.6s 7.80s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-left 0.6s 7.80s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
-
-@-webkit-keyframes slide-in-blurred-right {
-    0% {
-      -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
-              transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
-      -webkit-transform-origin: 0% 50%;
-              transform-origin: 0% 50%;
-      -webkit-filter: blur(40px);
-              filter: blur(40px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-              transform: translateX(0) scaleY(1) scaleX(1);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      -webkit-filter: blur(0);
-              filter: blur(0);
-      opacity: 1;
-    }
-  }
-  @keyframes slide-in-blurred-right {
-    0% {
-      -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
-              transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
-      -webkit-transform-origin: 0% 50%;
-              transform-origin: 0% 50%;
-      -webkit-filter: blur(40px);
-              filter: blur(40px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-              transform: translateX(0) scaleY(1) scaleX(1);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      -webkit-filter: blur(0);
-              filter: blur(0);
-      opacity: 1;
-    }
-  }
-
-@-webkit-keyframes slide-in-blurred-left {
-    0% {
-      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-      -webkit-transform-origin: 100% 50%;
-              transform-origin: 100% 50%;
-      -webkit-filter: blur(40px);
-              filter: blur(40px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-              transform: translateX(0) scaleY(1) scaleX(1);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      -webkit-filter: blur(0);
-              filter: blur(0);
-      opacity: 1;
-    }
-  }
-  @keyframes slide-in-blurred-left {
-    0% {
-      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-      -webkit-transform-origin: 100% 50%;
-              transform-origin: 100% 50%;
-      -webkit-filter: blur(40px);
-              filter: blur(40px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-              transform: translateX(0) scaleY(1) scaleX(1);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      -webkit-filter: blur(0);
-              filter: blur(0);
-      opacity: 1;
-    }
-  }
-  
-  
